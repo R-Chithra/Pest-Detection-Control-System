@@ -12,7 +12,7 @@ The system is built around the STM32F407VGTx microcontroller, integrating sensin
 ![Block Diagram](images/experimental_setup.png)
 
 ### Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
+![Circuit Diagram](images/Circuit_Diagram.png)
 
 ### Flowchart
 ![Flowchart](images/flowchart.png)
@@ -43,7 +43,7 @@ The system is built around the STM32F407VGTx microcontroller, integrating sensin
    - Provides physical deterrence irrespective of detection state.
 
 ### Timing Diagram
-![Timing Diagram](images/timing_diagram.png)
+![Timing Diagram](images/Timing_Diagram.png)
 
 The timing diagram represents the system response to motion detection:
 
