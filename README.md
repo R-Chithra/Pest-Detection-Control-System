@@ -101,6 +101,7 @@ The system successfully detects motion using the PIR sensor and triggers:
 - Continuous servo-based deterrence
 
 ## Project Structure
+```
 Pest-Detection-Control-System/
 │
 ├── firmware/ # STM32CubeMX + Keil project files
@@ -121,3 +122,4 @@ Pest-Detection-Control-System/
 │ └── pest_detected.png
 │
 └── README.md
+```
