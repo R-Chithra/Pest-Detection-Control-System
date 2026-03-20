@@ -1,0 +1,15 @@
+# Build files
+*.o
+*.axf
+*.elf
+*.map
+*.log
+
+# Keil
+*.uvoptx
+Debug/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,28 @@
+--cpu=Cortex-M4.fp.sp
+"mcpfinal\startup_stm32f407xx.o"
+"mcpfinal\i2c_lcd.o"
+"mcpfinal\main.o"
+"mcpfinal\stm32f4xx_it.o"
+"mcpfinal\stm32f4xx_hal_msp.o"
+"mcpfinal\stm32f4xx_hal_i2c.o"
+"mcpfinal\stm32f4xx_hal_i2c_ex.o"
+"mcpfinal\stm32f4xx_hal_rcc.o"
+"mcpfinal\stm32f4xx_hal_rcc_ex.o"
+"mcpfinal\stm32f4xx_hal_flash.o"
+"mcpfinal\stm32f4xx_hal_flash_ex.o"
+"mcpfinal\stm32f4xx_hal_flash_ramfunc.o"
+"mcpfinal\stm32f4xx_hal_gpio.o"
+"mcpfinal\stm32f4xx_hal_dma_ex.o"
+"mcpfinal\stm32f4xx_hal_dma.o"
+"mcpfinal\stm32f4xx_hal_pwr.o"
+"mcpfinal\stm32f4xx_hal_pwr_ex.o"
+"mcpfinal\stm32f4xx_hal_cortex.o"
+"mcpfinal\stm32f4xx_hal.o"
+"mcpfinal\stm32f4xx_hal_exti.o"
+"mcpfinal\stm32f4xx_hal_tim.o"
+"mcpfinal\stm32f4xx_hal_tim_ex.o"
+"mcpfinal\system_stm32f4xx.o"
+--strict --scatter "mcpfinal\mcpfinal.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "mcpfinal.map" -o mcpfinal\mcpfinal.axf
