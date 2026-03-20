@@ -104,6 +104,20 @@ The system successfully detects motion using the PIR sensor and triggers:
 Pest-Detection-Control-System/
 │
 ├── firmware/ # STM32CubeMX + Keil project files
+│ ├── Core/
+│ ├── Drivers/
+│ ├── MDK-ARM/
+│ └── mcpfinal.ioc
+│
 ├── hardware/ # Pin configuration details
-├── images/ # Diagrams and result images
+│ └── pin_connections.md
+│
+├── images/ # Diagrams and results
+│ ├── Circuit_diagram.png
+│ ├── flowchart.png
+│ ├── Timing_diagram.png
+│ └── results/
+│ ├── no_pest.png
+│ └── pest_detected.png
+│
 └── README.md
